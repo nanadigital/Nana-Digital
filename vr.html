@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Reality</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            color: white;
+        }
+        :root{ 
+            --white-color: #FCF8F8; 
+            --body-font: 'Poppins', sans-serif;
+            --big-font-size: 3.5rem; 
+            }
+
+        .background-img{
+            background-image: url('./img/vrbg.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;          
+            height: 100vh;          
+        } 
+        .vr__data{
+            position: absolute;
+            color: var(--white-color);
+            height: 100%;
+            width: 25%; 
+            display: flex;  
+            align-items: center; 
+            padding-left: 50px;
+        }
+
+        .vr__title{
+            font-size: var(--big-font-size);
+            line-height: 1.3;
+            margin-bottom: 1rem;
+        }
+        .vr__description{
+            margin-bottom: 0;
+            font-size: small;
+        }
+        .img-box{
+            position: flex;
+            margin: 150 px auto;
+            text-align: right;       
+            padding-top: 10px;
+            padding-right: 20px;
+         } 
+        
+    </style>
+</head>
+<body>
+    <div class="background-img">
+
+        <div class="vr__data">
+            <h1 class="vr__title">VIRTUAL<br> REALITY <br><p class="vr__description">Explore the 3D world</p>  </h1>                                   
+        </div>       
+        
+        <div class="img-box">       
+        <iframe width= "1200px" height="700px" src="https://momento360.com/e/u/44e74ff77b3148ab8d8077c5c76f3157?utm_campaign=embed&utm_source=other&heading=0.1&pitch=0&field-of-view=73&size=medium" frameborder="0"></iframe>
+        
+    </div>
+    </div>
+    
+</body>
+</html>
